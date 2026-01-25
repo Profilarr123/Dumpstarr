@@ -13,7 +13,7 @@ tags:
 - LQ
 - AppleTV
 upgradesAllowed: true
-minCustomFormatScore: 1
+minCustomFormatScore: 500
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
@@ -22,7 +22,7 @@ custom_formats:
 - name: AAC
   score: 600
 - name: x265 (HD)
-  score: 50
+  score: 1
 - name: Dolby Digital
   score: -2000
 - name: Dolby Digital +
