@@ -1,4 +1,4 @@
-name: 1080p LQ Old Apple TV
+name: Love Island
 description: '- This profile is for **SIDCA** (Sh*t I Don''t Care About). The primary
   tier and LQ groups are not scored to allow "low quality" releases. For example,
   user requests "Keeping Up with the Kardashians" and you would prefer to save as
@@ -17,24 +17,16 @@ minCustomFormatScore: 1
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
-- name: AAC
-  score: 1000
 - name: RAWR
+  score: 1000
+- name: AAC
   score: 600
-- name: SIDCA Groups
-  score: 500
-- name: SIDCA Fallback Groups
-  score: 250
 - name: x265 (HD)
   score: 50
-- name: 7.1 Surround
-  score: 3
-- name: 5.1 Surround
-  score: 2
 - name: Dolby Digital
-  score: -1000
+  score: -2000
 - name: Dolby Digital +
-  score: -1000
+  score: -2000
 custom_formats_radarr: []
 custom_formats_sonarr: []
 qualities:
