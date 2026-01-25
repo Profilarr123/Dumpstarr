@@ -1,0 +1,11 @@
+name: RAWR
+description: ''
+tags:
+- Release Group
+conditions:
+- name: RAWR
+  negate: false
+  pattern: RAWR
+  required: true
+  type: release_group
+tests: []
