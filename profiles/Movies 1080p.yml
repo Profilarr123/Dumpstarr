@@ -17,9 +17,7 @@ upgradesAllowed: true
 minCustomFormatScore: 750
 upgradeUntilScore: 10000
 minScoreIncrement: 1
-custom_formats:
-- name: ASL
-  score: -10000
+custom_formats: []
 custom_formats_radarr:
 - name: WEB Tier 01
   score: 1700
@@ -93,9 +91,9 @@ custom_formats_radarr:
   score: 5
 - name: Missing Audio Channels
   score: -50
-- name: 10bit
-  score: -10000
 - name: 3D
+  score: -10000
+- name: Accessibility
   score: -10000
 - name: AV1
   score: -10000
@@ -130,8 +128,6 @@ custom_formats_radarr:
 - name: TrueHD Missing
   score: -10000
 - name: Upscaled
-  score: -10000
-- name: x265 (HD)
   score: -10000
 custom_formats_sonarr: []
 qualities:

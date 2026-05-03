@@ -14,7 +14,7 @@ minCustomFormatScore: 0
 upgradeUntilScore: 10000
 minScoreIncrement: 1
 custom_formats:
-- name: ASL
+- name: Accessibility
   score: -10000
 custom_formats_radarr: []
 custom_formats_sonarr:
@@ -185,6 +185,8 @@ custom_formats_sonarr:
 - name: Scrubs (Banned Groups)
   score: -10000
 - name: Scrubs (Banned Title)
+  score: -10000
+- name: TBBT Banned Groups
   score: -10000
 - name: TV Extras
   score: -10000
